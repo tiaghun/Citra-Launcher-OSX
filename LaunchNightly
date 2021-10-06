@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+cd "${0%/*}"
+
+open Citra/nightly/citra-qt.app

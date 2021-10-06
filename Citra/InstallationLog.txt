@@ -1,0 +1,312 @@
+************************************* Invoked: Tue Oct 16 21:57:02 2018
+[0] Arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/citra-setup-mac
+[1] Operations sanity check succeeded.
+[22657] addDownloadable "citra-windows-mingw-20181016-2a7b878.7z"
+[22657] addDownloadable "citra-linux-20181016-458f121.7z"
+[22657] addDownloadable "citra-windows-mingw-20181016-458f121.7z"
+[22657] addDownloadable "citra-osx-20181016-2a7b878.7z"
+[22657] addDownloadable "citra-osx-20181016-458f121.7z"
+[22665] addDownloadable "citra-linux-20181016-2a7b878.7z"
+[69531] Tmp and install directories are on the same volume. Volume mount point: "/" Free space available: "585.49 GiB"
+[69531] Installation space required: "97.02 MiB" Temporary space required: "48.51 MiB" Local repository size: "0.00 bytes"
+[71313] backup  operation: Mkdir
+[71313] 	- arguments: /Applications/Games/Emulators/Citra
+[71313] Done
+[71313] perform  operation: Mkdir
+[71313] 	- arguments: /Applications/Games/Emulators/Citra
+[71313] Done
+[71313] Install size: 2 components
+[162285] backup org.citra.canary.osx operation: Extract
+[162285] 	- arguments: installer://org.citra.canary.osx/973citra-osx-20181016-458f121.7z, /Applications/Games/Emulators/Citra
+[162285] Done
+[162285] perform org.citra.canary.osx operation: Extract
+[162285] 	- arguments: installer://org.citra.canary.osx/973citra-osx-20181016-458f121.7z, /Applications/Games/Emulators/Citra
+[164244] Done
+[164244] backup org.citra.canary.osx operation: License
+[164244] 	- arguments:
+[164244] Done
+[164245] perform org.citra.canary.osx operation: License
+[164245] 	- arguments:
+[164245] Done
+[164246] backup org.citra.nightly.osx operation: Extract
+[164246] 	- arguments: installer://org.citra.nightly.osx/1056citra-osx-20181016-2a7b878.7z, /Applications/Games/Emulators/Citra
+[164246] Done
+[164246] perform org.citra.nightly.osx operation: Extract
+[164246] 	- arguments: installer://org.citra.nightly.osx/1056citra-osx-20181016-2a7b878.7z, /Applications/Games/Emulators/Citra
+[166235] Done
+[166236] backup org.citra.nightly.osx operation: License
+[166236] 	- arguments:
+[166236] Done
+[166237] perform org.citra.nightly.osx operation: License
+[166237] 	- arguments:
+[166237] Done
+[166239] backup  operation: Mkdir
+[166239] 	- arguments: /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS
+[166239] Done
+[166251] perform  operation: Mkdir
+[166251] 	- arguments: /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS
+[166251] Done
+[166251] backup  operation: Copy
+[166251] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../PkgInfo, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../PkgInfo
+[166251] Done
+[166251] perform  operation: Copy
+[166251] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../PkgInfo, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../PkgInfo
+[166252] Done
+[166252] backup  operation: Copy
+[166252] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../Info.plist, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../Info.plist
+[166252] Done
+[166252] perform  operation: Copy
+[166252] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../Info.plist, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../Info.plist
+[166253] Done
+[166260] perform  operation: CopyDirectory
+[166261] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../Resources/qt_menu.nib, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../Resources/qt_menu.nib
+[166261] Done
+[166262] backup  operation: Mkdir
+[166262] 	- arguments: /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/Resources
+[166262] Done
+[166262] perform  operation: Mkdir
+[166262] 	- arguments: /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/Resources
+[166262] Done
+[166262] backup  operation: Copy
+[166262] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../Resources/citra-setup-mac.icns, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../Resources/citra-setup-mac.icns
+[166262] Done
+[166262] perform  operation: Copy
+[166262] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../Resources/citra-setup-mac.icns, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../Resources/citra-setup-mac.icns
+[166263] Done
+[166264] perform  operation: CopyDirectory
+[166264] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../Frameworks, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../Frameworks
+[166264] Done
+[166264] perform  operation: CopyDirectory
+[166264] 	- arguments: /private/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/AppTranslocation/49DFB644-4830-4712-8DA4-8EDDD10E2E9B/d/citra-setup-mac.app/Contents/MacOS/../plugins, /Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/../plugins
+[166264] Done
+[166265] Writing maintenance tool: "/Applications/Games/Emulators/Citra/maintenancetool.app/Contents/MacOS/maintenancetool.new"
+[166571] Wrote permissions for maintenance tool.
+[166689] Maintenance tool restart: false.
+************************************* Invoked: Tue Oct 16 22:01:17 2018
+[0] Arguments: /Users/Administrator/Library/Application Support/Citra/maintenancetool.app/Contents/MacOS/maintenancetool
+[6] Operations sanity check succeeded.
+************************************* Invoked: Tue Oct 16 22:49:51 2018
+[0] Operations sanity check succeeded.
+[1595] Url is: "/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/remoterepo-k5lnIP"
+[1595] addDownloadable "citra-linux-20181016-458f121.7z"
+[1595] addDownloadable "citra-osx-20181016-2a7b878.7z"
+[1596] addDownloadable "citra-windows-mingw-20181016-458f121.7z"
+[1605] addDownloadable "citra-linux-20181016-2a7b878.7z"
+[1605] addDownloadable "citra-windows-mingw-20181016-2a7b878.7z"
+[1605] addDownloadable "citra-osx-20181016-458f121.7z"
+************************************* Invoked: Tue Dec 18 20:51:37 2018
+[0] Operations sanity check succeeded.
+[3971] Url is: "/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/remoterepo-SkmZix"
+[3971] addDownloadable "citra-osx-20181216-12b752f.7z"
+[3971] addDownloadable "citra-linux-20181217-29548bb.7z"
+[3971] addDownloadable "citra-linux-20181218-88e2acb.7z"
+[3971] addDownloadable "citra-windows-mingw-20181217-29548bb.7z"
+[3971] addDownloadable "citra-windows-mingw-20181218-2bdb111.7z"
+[3972] addDownloadable "citra-osx-20181217-29548bb.7z"
+************************************* Invoked: Tue Dec 18 20:51:48 2018
+[0] Arguments: /Users/Administrator/Library/Application Support/Citra/maintenancetool.app/Contents/MacOS/maintenancetool, --updater
+[8] Operations sanity check succeeded.
+[7377] addDownloadable "citra-windows-mingw-20181217-29548bb.7z"
+[7377] addDownloadable "citra-linux-20181218-88e2acb.7z"
+[7378] addDownloadable "citra-osx-20181217-29548bb.7z"
+[7378] addDownloadable "citra-windows-mingw-20181218-2bdb111.7z"
+[7378] addDownloadable "citra-osx-20181216-12b752f.7z"
+[7378] addDownloadable "citra-linux-20181217-29548bb.7z"
+[16192] Tmp and install directories are on the same volume. Volume mount point: "/" Free space available: "520.47 GiB"
+[16192] Installation space required: "147.96 MiB" Temporary space required: "73.98 MiB" Local repository size: "0.00 bytes"
+[19062] Install size: 2 components
+[771325] undo operation= "License"
+[771325] undo org.citra.nightly.osx operation: License
+[771325] 	- arguments: /Users/Administrator/Library/Application Support/Citra/Licenses
+[771326] Done
+[771327] undo operation= "MinimumProgress"
+[771329] undo operation= "Extract"
+[771329] undo org.citra.nightly.osx operation: Extract
+[771329] 	- arguments: installer://org.citra.nightly.osx/1056citra-osx-20181016-2a7b878.7z, /Users/Administrator/Library/Application Support/Citra
+[771407] Done
+[771407] undo operation= "License"
+[771408] undo org.citra.canary.osx operation: License
+[771408] 	- arguments: /Users/Administrator/Library/Application Support/Citra/Licenses
+[771408] Done
+[771408] undo operation= "MinimumProgress"
+[771408] undo operation= "Extract"
+[771408] undo org.citra.canary.osx operation: Extract
+[771408] 	- arguments: installer://org.citra.canary.osx/973citra-osx-20181016-458f121.7z, /Users/Administrator/Library/Application Support/Citra
+[771427] Done
+[771469] backup org.citra.canary.osx operation: Extract
+[771469] 	- arguments: installer://org.citra.canary.osx/1131citra-osx-20181216-12b752f.7z, /Users/Administrator/Library/Application Support/Citra
+[771469] Done
+[771471] perform org.citra.canary.osx operation: Extract
+[771471] 	- arguments: installer://org.citra.canary.osx/1131citra-osx-20181216-12b752f.7z, /Users/Administrator/Library/Application Support/Citra
+[775451] Done
+[775452] backup org.citra.canary.osx operation: License
+[775452] 	- arguments:
+[775452] Done
+[775452] perform org.citra.canary.osx operation: License
+[775452] 	- arguments:
+[775452] Done
+[775455] backup org.citra.nightly.osx operation: Extract
+[775455] 	- arguments: installer://org.citra.nightly.osx/1156citra-osx-20181217-29548bb.7z, /Users/Administrator/Library/Application Support/Citra
+[775455] Done
+[775459] perform org.citra.nightly.osx operation: Extract
+[775459] 	- arguments: installer://org.citra.nightly.osx/1156citra-osx-20181217-29548bb.7z, /Users/Administrator/Library/Application Support/Citra
+[777625] Done
+[777626] backup org.citra.nightly.osx operation: License
+[777626] 	- arguments:
+[777626] Done
+[777626] perform org.citra.nightly.osx operation: License
+[777626] 	- arguments:
+[777626] Done
+************************************* Invoked: Tue Dec 18 21:05:51 2018
+[0] Operations sanity check succeeded.
+[4096] Url is: "/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/remoterepo-v9sode"
+[4096] addDownloadable "citra-osx-20181216-12b752f.7z"
+[4097] addDownloadable "citra-linux-20181218-88e2acb.7z"
+[4097] addDownloadable "citra-windows-mingw-20181218-2bdb111.7z"
+[4097] addDownloadable "citra-osx-20181217-29548bb.7z"
+[4097] addDownloadable "citra-linux-20181217-29548bb.7z"
+[4097] addDownloadable "citra-windows-mingw-20181217-29548bb.7z"
+************************************* Invoked: Tue Dec 18 21:07:33 2018
+[0] Operations sanity check succeeded.
+[3490] Url is: "/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/remoterepo-mybpL7"
+[3490] addDownloadable "citra-windows-mingw-20181218-2bdb111.7z"
+[3491] addDownloadable "citra-linux-20181217-29548bb.7z"
+[3491] addDownloadable "citra-windows-mingw-20181217-29548bb.7z"
+[3491] addDownloadable "citra-osx-20181216-12b752f.7z"
+[3491] addDownloadable "citra-osx-20181217-29548bb.7z"
+[3491] addDownloadable "citra-linux-20181218-88e2acb.7z"
+************************************* Invoked: Tue Dec 18 21:08:04 2018
+[0] Operations sanity check succeeded.
+[4920] Url is: "/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/remoterepo-4wZlx8"
+[4920] addDownloadable "citra-linux-20181217-29548bb.7z"
+[4920] addDownloadable "citra-windows-mingw-20181217-29548bb.7z"
+[4920] addDownloadable "citra-linux-20181218-88e2acb.7z"
+[4920] addDownloadable "citra-osx-20181217-29548bb.7z"
+[4920] addDownloadable "citra-windows-mingw-20181218-2bdb111.7z"
+[4921] addDownloadable "citra-osx-20181216-12b752f.7z"
+************************************* Invoked: Mon Feb 11 00:41:23 2019
+[0] Operations sanity check succeeded.
+[1736] Url is: "/var/folders/t_/34x0f75d2rvdw7f72rxp29f40000gn/T/remoterepo-xcaElE"
+[1736] addDownloadable "citra-linux-20190209-1f31f23.7z"
+[1736] addDownloadable "citra-linux-20190210-ccddfbf.7z"
+[1737] addDownloadable "citra-windows-mingw-20190209-1f31f23.7z"
+[1737] addDownloadable "citra-osx-20190210-ccddfbf.7z"
+[1737] addDownloadable "citra-osx-20190123-8b047a4.7z"
+[1737] addDownloadable "citra-windows-mingw-20190210-ccddfbf.7z"
+************************************* Invoked: Mon Feb 11 00:41:27 2019
+[0] Arguments: /Users/Administrator/Library/Application Support/Citra/maintenancetool.app/Contents/MacOS/maintenancetool, --updater
+[8] Operations sanity check succeeded.
+[5846] addDownloadable "citra-windows-mingw-20190210-ccddfbf.7z"
+[5847] addDownloadable "citra-linux-20190209-1f31f23.7z"
+[5847] addDownloadable "citra-windows-mingw-20190209-1f31f23.7z"
+[5847] addDownloadable "citra-osx-20190123-8b047a4.7z"
+[5847] addDownloadable "citra-linux-20190210-ccddfbf.7z"
+[5847] addDownloadable "citra-osx-20190210-ccddfbf.7z"
+[20160] Tmp and install directories are on the same volume. Volume mount point: "/" Free space available: "459.59 GiB"
+[20160] Installation space required: "172.88 MiB" Temporary space required: "86.44 MiB" Local repository size: "0.00 bytes"
+[21597] Install size: 2 components
+[259316] undo operation= "License"
+[259316] undo org.citra.canary.osx operation: License
+[259316] 	- arguments: /Users/Administrator/Library/Application Support/Citra/Licenses
+[259379] Done
+[259379] undo operation= "MinimumProgress"
+[259380] undo operation= "Extract"
+[259380] undo org.citra.canary.osx operation: Extract
+[259380] 	- arguments: installer://org.citra.canary.osx/1131citra-osx-20181216-12b752f.7z, /Users/Administrator/Library/Application Support/Citra
+[259427] Done
+[259427] undo operation= "License"
+[259427] undo org.citra.nightly.osx operation: License
+[259427] 	- arguments: /Users/Administrator/Library/Application Support/Citra/Licenses
+[259427] Done
+[259427] undo operation= "MinimumProgress"
+[259428] undo operation= "Extract"
+[259428] undo org.citra.nightly.osx operation: Extract
+[259428] 	- arguments: installer://org.citra.nightly.osx/1156citra-osx-20181217-29548bb.7z, /Users/Administrator/Library/Application Support/Citra
+[259449] Done
+[259454] backup org.citra.canary.osx operation: Extract
+[259454] 	- arguments: installer://org.citra.canary.osx/1191citra-osx-20190210-ccddfbf.7z, /Users/Administrator/Library/Application Support/Citra
+[259454] Done
+[259454] perform org.citra.canary.osx operation: Extract
+[259454] 	- arguments: installer://org.citra.canary.osx/1191citra-osx-20190210-ccddfbf.7z, /Users/Administrator/Library/Application Support/Citra
+[263848] Done
+[263849] backup org.citra.canary.osx operation: License
+[263849] 	- arguments:
+[263849] Done
+[263849] perform org.citra.canary.osx operation: License
+[263849] 	- arguments:
+[263850] Done
+[263853] backup org.citra.nightly.osx operation: Extract
+[263853] 	- arguments: installer://org.citra.nightly.osx/1180citra-osx-20190123-8b047a4.7z, /Users/Administrator/Library/Application Support/Citra
+[263853] Done
+[263853] perform org.citra.nightly.osx operation: Extract
+[263853] 	- arguments: installer://org.citra.nightly.osx/1180citra-osx-20190123-8b047a4.7z, /Users/Administrator/Library/Application Support/Citra
+[267033] Done
+[267033] backup org.citra.nightly.osx operation: License
+[267033] 	- arguments:
+[267033] Done
+[267034] perform org.citra.nightly.osx operation: License
+[267034] 	- arguments:
+[267034] Done
+************************************* Invoked: Sat Apr 11 13:29:29 2020
+[0] Operations sanity check succeeded.
+[1275] Url is: "/var/folders/0t/5g_1lm1x4y15fgjrq10tg0dr0000gn/T/remoterepo-aN44de"
+[1275] addDownloadable "citra-linux-20200407-23921e3.7z"
+[1275] addDownloadable "citra-linux-20200331-7025f72.7z"
+[1276] addDownloadable "citra-windows-mingw-20200407-23921e3.7z"
+[1276] addDownloadable "citra-windows-mingw-20200407-4f8f8e8.7z"
+[1276] addDownloadable "citra-osx-20200407-23921e3.7z"
+[1276] addDownloadable "citra-osx-20200331-7025f72.7z"
+************************************* Invoked: Sat Apr 11 13:29:37 2020
+[0] Arguments: /Users/Administrator/Library/Application Support/Citra/maintenancetool.app/Contents/MacOS/maintenancetool, --updater
+[6] Operations sanity check succeeded.
+[3542] addDownloadable "citra-osx-20200331-7025f72.7z"
+[3542] addDownloadable "citra-linux-20200331-7025f72.7z"
+[3542] addDownloadable "citra-linux-20200407-23921e3.7z"
+[3542] addDownloadable "citra-windows-mingw-20200407-4f8f8e8.7z"
+[3542] addDownloadable "citra-osx-20200407-23921e3.7z"
+[3542] addDownloadable "citra-windows-mingw-20200407-23921e3.7z"
+[7140] Tmp and install directories are on the same volume. Volume mount point: "/" Free space available: "227.06 GiB"
+[7140] Installation space required: "216.09 MiB" Temporary space required: "108.04 MiB" Local repository size: "0.00 bytes"
+[8115] Install size: 2 components
+[111170] undo operation= "License"
+[111170] undo org.citra.canary.osx operation: License
+[111170] 	- arguments: /Users/Administrator/Library/Application Support/Citra/Licenses
+[111400] Done
+[111401] undo operation= "MinimumProgress"
+[111401] undo operation= "Extract"
+[111401] undo org.citra.canary.osx operation: Extract
+[111401] 	- arguments: installer://org.citra.canary.osx/1191citra-osx-20190210-ccddfbf.7z, /Users/Administrator/Library/Application Support/Citra
+[111534] Done
+[111534] undo operation= "License"
+[111534] undo org.citra.nightly.osx operation: License
+[111534] 	- arguments: /Users/Administrator/Library/Application Support/Citra/Licenses
+[111534] Done
+[111535] undo operation= "MinimumProgress"
+[111535] undo operation= "Extract"
+[111535] undo org.citra.nightly.osx operation: Extract
+[111535] 	- arguments: installer://org.citra.nightly.osx/1180citra-osx-20190123-8b047a4.7z, /Users/Administrator/Library/Application Support/Citra
+[111561] Done
+[111567] backup org.citra.canary.osx operation: Extract
+[111567] 	- arguments: installer://org.citra.canary.osx/1628citra-osx-20200331-7025f72.7z, /Users/Administrator/Library/Application Support/Citra
+[111567] Done
+[111567] perform org.citra.canary.osx operation: Extract
+[111567] 	- arguments: installer://org.citra.canary.osx/1628citra-osx-20200331-7025f72.7z, /Users/Administrator/Library/Application Support/Citra
+[116159] Done
+[116160] backup org.citra.canary.osx operation: License
+[116160] 	- arguments:
+[116160] Done
+[116160] perform org.citra.canary.osx operation: License
+[116160] 	- arguments:
+[116160] Done
+[116161] backup org.citra.nightly.osx operation: Extract
+[116161] 	- arguments: installer://org.citra.nightly.osx/1465citra-osx-20200407-23921e3.7z, /Users/Administrator/Library/Application Support/Citra
+[116161] Done
+[116161] perform org.citra.nightly.osx operation: Extract
+[116161] 	- arguments: installer://org.citra.nightly.osx/1465citra-osx-20200407-23921e3.7z, /Users/Administrator/Library/Application Support/Citra
+[120489] Done
+[120490] backup org.citra.nightly.osx operation: License
+[120490] 	- arguments:
+[120490] Done
+[120490] perform org.citra.nightly.osx operation: License
+[120490] 	- arguments:
+[120491] Done

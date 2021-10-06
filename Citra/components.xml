@@ -1,0 +1,26 @@
+<Packages>
+    <ApplicationName>Citra</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>org.citra.canary.osx</Name>
+        <Title>Citra Canary</Title>
+        <Description>An in-development version of Citra that uses changes that are relatively untested.
+(osx, commit: canary-1787, release date: 2020-06-20)</Description>
+        <Version>1787</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-07-20</InstallDate>
+        <Size>117387130</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>org.citra.nightly.osx</Name>
+        <Title>Citra Nightly</Title>
+        <Description>The nightly builds of Citra are official, tested versions of Citra that are known to work.
+(osx, commit: nightly-1588, release date: 2020-07-07)</Description>
+        <Version>1588</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-07-20</InstallDate>
+        <Size>123451656</Size>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>
